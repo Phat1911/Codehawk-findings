@@ -12,4 +12,4 @@ This directory should not be interpreted as a professional audit of a production
 
 | Challenge | Platform | Findings | Main Topics | Analysis Type |
 | --- | --- | ---: | --- | --- |
-| Snowman Airdrop | CodeHawks First Flights | 5 | Access control, EIP-712, Merkle proofs, state validation | Mixed: submitted findings + solution-assisted learning |
+| Snowman Airdrop | CodeHawks First Flights | 4 | Access control, EIP-712, Merkle proofs, state validation | Mixed: submitted findings + solution-assisted learning |

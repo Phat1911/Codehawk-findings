@@ -31,7 +31,6 @@ Analysis Type: Mixed - submitted findings + solution-assisted learning
 | H-01 | High | Anyone can mint unlimited Snowman NFTs due to missing access control in `mintSnowman()` | Submitted and matched |
 | H-02 | High | Inconsistent `MESSAGE_TYPEHASH` breaks standard EIP-712 signatures | Post-results learning |
 | M-01 | Medium | A user's claim can be DoS'd by changing their Snow balance | Post-results learning |
-| L-01 | Low | Claimed users can repeatedly claim because claim status is never checked | Submitted and matched |
 | L-02 | Low | Global timer reset in `Snow::buySnow` denies free Snow claims for all users | Post-results learning |
 
 ## What I Learned
