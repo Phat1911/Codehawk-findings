@@ -4,7 +4,7 @@
 
 Snowman Airdrop is a CodeHawks First Flights challenge about an ERC20 Snow token, an ERC721 Snowman NFT, and a Merkle/signature-based airdrop flow.
 
-Original CodeHawks challenge URL: TODO: Add original CodeHawks challenge URL
+Original CodeHawks challenge URL: [TODO: Add original CodeHawks challenge URL](https://codehawks.cyfrin.io/c/ai-snowman-merkle-airdrop-cmslquoyw0000l904hgbq606p)
 
 Source repository referenced by the challenge README: `https://github.com/CodeHawks-Contests/2025-06-snowman-merkle-airdrop.git`
 
