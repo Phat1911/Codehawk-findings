@@ -30,11 +30,3 @@ Analysis Type: Mixed - post-results learning + independent review
 | M-02 | Medium | Duplicate player addresses overwrite assigned rewards | Post-results learning |
 | M-03 | Medium | Remaining rewards are divided by all players instead of successful claimants | Independent review |
 | L-01 | Low | Integer division leaves rounding dust stuck in `Pot` | Independent review |
-
-## What I Learned
-
-- `msg.sender` changes at each contract-call boundary. When `ContestManager` calls `Pot.closePot()`, the `Pot` sees `ContestManager` as `msg.sender`, not the owner EOA.
-- Push-style loops over unbounded arrays can make settlement functions impossible to execute.
-- Reward assignment should validate duplicate recipients instead of silently overwriting mapping values.
-- The denominator in reward distribution must match the recipient set that actually receives funds.
-- Integer division dust is usually a lower-severity accounting issue unless the stuck value can become material.

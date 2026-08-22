@@ -15,3 +15,6 @@ This directory should not be interpreted as a professional audit of a production
 | Thunder Loan | CodeHawks First Flights | 4 | Flash loans, upgradeable proxies, vault accounting, admin controls | Mixed: guided independent review + challenge learning |
 | Snowman Airdrop | CodeHawks First Flights | 4 | Access control, EIP-712, Merkle proofs, state validation | Mixed: submitted findings + solution-assisted learning |
 | MyCut | CodeHawks First Flights | 5 | Reward distribution, gas DoS, accounting, input validation | Mixed: post-results learning + independent review |
+| DatingDapp | CodeHawks First Flights | 5 | Soulbound NFTs, ETH accounting, multisig rewards, moderation, reentrancy | Mixed: independent review + missed-findings learning |
+| Airdropper | CodeHawks First Flights | 4 | Merkle proofs, deployment scripts, token decimals, zkSync account abstraction | Mixed: independent review + missed-findings learning |
+| Beatland Festival | CodeHawks First Flights | 6 | ERC1155 passes, reward farming, reentrancy, supply accounting, memorabilia | Mixed: independent review + challenge learning |

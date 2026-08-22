@@ -43,10 +43,3 @@ A local PoC test file was added at:
 - `2023-11-Thunder-Loan/test/unit/ThunderLoanFindingsPoC.t.sol`
 
 The tests could not be compiled in the current local environment because the challenge submodules were empty and dependency installation failed due to a local GitHub SSL certificate issue.
-
-## What I Learned
-
-- A vault exchange rate must only increase when real assets have entered the vault.
-- Proxy upgrades preserve proxy storage, so implementation storage layout must remain compatible forever.
-- Flash loan repayment checks based only on final balance can be bypassed when another protocol function can increase that balance while minting claims to the borrower.
-- Disabling an asset should stop new activity without removing the redemption path for existing LPs.

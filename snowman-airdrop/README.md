@@ -32,13 +32,3 @@ Analysis Type: Mixed - submitted findings + solution-assisted learning
 | H-02 | High | Inconsistent `MESSAGE_TYPEHASH` breaks standard EIP-712 signatures | Post-results learning |
 | M-01 | Medium | A user's claim can be DoS'd by changing their Snow balance | Post-results learning |
 | L-02 | Low | Global timer reset in `Snow::buySnow` denies free Snow claims for all users | Post-results learning |
-
-## What I Learned
-
-- Public/external functions that change critical state need explicit authorization.
-- NFT minting is a privileged action when token supply is meant to represent eligibility or completed claims.
-- A working airdrop verification flow can still be bypassed if the downstream mint function is directly callable.
-- EIP-712 type strings must exactly match the intended typed data schema.
-- Merkle leaves should be built from fixed claim data, not mutable token balances.
-- Shared global timers can accidentally let one user's action affect everyone else.
-- A strong finding should explain the intended invariant, the exact violated assumption, who can trigger it, and the concrete impact.
