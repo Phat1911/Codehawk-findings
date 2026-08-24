@@ -18,3 +18,4 @@ This directory should not be interpreted as a professional audit of a production
 | DatingDapp | CodeHawks First Flights | 5 | Soulbound NFTs, ETH accounting, multisig rewards, moderation, reentrancy | Mixed: independent review + missed-findings learning |
 | Airdropper | CodeHawks First Flights | 4 | Merkle proofs, deployment scripts, token decimals, zkSync account abstraction | Mixed: independent review + missed-findings learning |
 | Beatland Festival | CodeHawks First Flights | 6 | ERC1155 passes, reward farming, reentrancy, supply accounting, memorabilia | Mixed: independent review + challenge learning |
+| Santas List | CodeHawks First Flights | 6 | Access control, enum defaults, ERC20 burn authorization, ERC721 transferability, test-suite FFI | Mixed: independent review + challenge feedback learning |
