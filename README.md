@@ -19,3 +19,4 @@ This directory should not be interpreted as a professional audit of a production
 | Airdropper | CodeHawks First Flights | 4 | Merkle proofs, deployment scripts, token decimals, zkSync account abstraction | Mixed: independent review + missed-findings learning |
 | Beatland Festival | CodeHawks First Flights | 6 | ERC1155 passes, reward farming, reentrancy, supply accounting, memorabilia | Mixed: independent review + challenge learning |
 | Santas List | CodeHawks First Flights | 6 | Access control, enum defaults, ERC20 burn authorization, ERC721 transferability, test-suite FFI | Mixed: independent review + challenge feedback learning |
+| Algo Ssstablecoinsss | CodeHawks First Flights | 1 | Vyper stablecoin, collateral decimals, health factor accounting | Post-results learning from missed finding |
