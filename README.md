@@ -13,6 +13,7 @@ This directory should not be interpreted as a professional audit of a production
 | Challenge | Platform | Findings | Main Topics | Analysis Type |
 | --- | --- | ---: | --- | --- |
 | Thunder Loan | CodeHawks First Flights | 4 | Flash loans, upgradeable proxies, vault accounting, admin controls | Mixed: guided independent review + challenge learning |
+| Puppy Raffle | CodeHawks First Flights | 8 | Raffle randomness, reentrancy, gas DoS, ETH accounting, fee overflow, front-running, forced ETH griefing | Practice review + submission drafting |
 | Snowman Airdrop | CodeHawks First Flights | 4 | Access control, EIP-712, Merkle proofs, state validation | Mixed: submitted findings + solution-assisted learning |
 | MyCut | CodeHawks First Flights | 5 | Reward distribution, gas DoS, accounting, input validation | Mixed: post-results learning + independent review |
 | DatingDapp | CodeHawks First Flights | 5 | Soulbound NFTs, ETH accounting, multisig rewards, moderation, reentrancy | Mixed: independent review + missed-findings learning |
