@@ -21,3 +21,4 @@ This directory should not be interpreted as a professional audit of a production
 | Beatland Festival | CodeHawks First Flights | 6 | ERC1155 passes, reward farming, reentrancy, supply accounting, memorabilia | Mixed: independent review + challenge learning |
 | Santas List | CodeHawks First Flights | 6 | Access control, enum defaults, ERC20 burn authorization, ERC721 transferability, test-suite FFI | Mixed: independent review + challenge feedback learning |
 | Algo Ssstablecoinsss | CodeHawks First Flights | 1 | Vyper stablecoin, collateral decimals, health factor accounting | Post-results learning from missed finding |
+| RustFund | CodeHawks First Flights | 6 | Solana Anchor, PDAs, crowdfunding lifecycle, refund accounting, lamport transfers | Mixed: guided independent review + challenge learning |
